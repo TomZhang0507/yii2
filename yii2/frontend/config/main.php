@@ -41,10 +41,7 @@ return [
             'enableStrictParsing' => true,
             'showScriptName' => false,
             'rules' => [
-                '<controller:[\w-]+>/<action:[\w-]+>'              => '<controller>/<action>',
-
-                'wx/<company:[\w-]+>/<agent:[\w-]+>'                       => 'site/weixin',
-                'wx/<company:[\w-]+>/<agent:[\w-]+>/<action:[\w-]+>'       => 'site/weixin',
+                'wx/<action:[\w-]+>'       => 'wx/index',
             ],
         ],
     ],

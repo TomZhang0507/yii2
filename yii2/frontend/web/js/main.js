@@ -22,6 +22,6 @@ require.config({
     angularLazyLoad: ['angular'],
     angularUIRouter: ['angular']
   },
-  deps: ['awes/bootstrap'],
-  urlArgs: 'v={timestamp}'
+  deps: ['js/bootstrap'],
+  urlArgs: 'v=111111'
 });
